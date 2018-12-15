@@ -9,10 +9,12 @@ console.log(arrayThree);
 
 //Use your array to return the second number.
 let arraySecond = function arraySecondNumber(){
-return arrayThree[1];}
+    return arrayThree[1];
+}
 
 for(var i in arraySecond){
-console.log(arraySecond[i]);}
+    console.log(arraySecond[i]);
+}
 
 //What data type is 123/12? "Things in quotes!"? undefined?
 
@@ -23,7 +25,7 @@ console.log(typeof(undefined));
 //Write an if statement that returns true.
 let answer = true;
 function ifStatement(){
-if(answer) return true;
+    if(answer) return true;
 }
 //Consider these two arrays: myArray = ['Thomas', 'Sophie', 'Faraz']
 // and emptyArray = []. Use a for loop to add our names to emptyArray. 
